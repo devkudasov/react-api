@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    "module": "commonjs",
+    "target": "esnext",
     "allowJs": true,
-    "target": "esnext"
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "./src/**/*.ts"
