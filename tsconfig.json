@@ -4,7 +4,6 @@
     "module": "commonjs",
     "target": "esnext",
     "allowJs": true,
-    "sourceMap": true,
     "noImplicitAny": true,
     "allowUnreachableCode": true,
     "allowUnusedLabels": true,
